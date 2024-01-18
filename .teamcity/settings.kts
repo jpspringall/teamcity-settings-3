@@ -98,7 +98,7 @@ object PullRequestBuild : BuildType({
 
 object TeamcityBuildVcs : GitVcsRoot({
     name = "Teamcity Build"
-    url = "https://github.com/jpspringall/teamcity-settings-2"
+    url = "https://github.com/jpspringall/teamcity-settings-3"
     branch = "refs/heads/main"
     branchSpec = "%git.branch.specification%"
     agentCleanPolicy = GitVcsRoot.AgentCleanPolicy.ALWAYS
