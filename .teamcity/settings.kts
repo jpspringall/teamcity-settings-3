@@ -61,7 +61,6 @@ object Build : BuildType({
 
 object PullRequestBuild : BuildType({
     name = "Pull Request Build"
-    paused = true
     vcs {
         root(TeamcityBuildVcs)
         cleanCheckout = true
