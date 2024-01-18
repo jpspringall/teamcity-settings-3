@@ -97,7 +97,7 @@ object PullRequestBuild : BuildType({
 })
 
 object TeamcityBuildVcs : GitVcsRoot({
-    name = "Teamcity Build"
+    name = "Teamcity Settings 3 Build"
     url = "https://github.com/jpspringall/teamcity-settings-3"
     branch = "refs/heads/main"
     branchSpec = "%git.branch.specification%"
